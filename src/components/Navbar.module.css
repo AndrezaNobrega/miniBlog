@@ -1,9 +1,15 @@
 .navbar {
     display: flex;
-    box-shadow: rgba(0,0,0, .15) 0px -2px 10px 0px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
     justify-content: space-between;
     align-items: center;
     padding: .5em 2em;
+    background: #F6FCFF;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 10px 5px;
+    left: 0;
 }
 
 .brand  {

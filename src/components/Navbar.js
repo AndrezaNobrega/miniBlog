@@ -1,6 +1,5 @@
 import { NavLink } from "react-router-dom"
 import styles from "./Navbar.module.css"
-
 import { useAuthentication } from "../hooks/useAuthentication"
 import { useAuthValue } from "../context/AuthContext"
 
@@ -42,7 +41,7 @@ const Navbar = () => {
             </li>
             {user && (
                 <li>
-                    <button onClick={logout}>Sair</button>
+                    <button onClick={logout}>Sair</button>                    
                 </li>
             )}
         </ul>

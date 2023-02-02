@@ -6,7 +6,8 @@ import styles from './About.module.css'
 const About = () => {
     return (
         <div className={styles.about}>
-            <h2>Sobre o <span>projeto</span></h2>
+            <h2>Sobre o <span>projeto</span></h2> 
+            <hr/>           
             <p>Este projeto consiste em um blog feito com React no front end e firebase
                 no back end.
             </p>
